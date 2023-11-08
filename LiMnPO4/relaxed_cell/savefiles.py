@@ -1,0 +1,29 @@
+import numpy as np
+
+Ez = [-0.1, -0.06, -0.02, 0.02, 0.06, 0.1]
+
+magmoms = [[-0.0008222086876784919, -1.5869083505317673e-06, 0.0005432901961373946],
+           [-0.001001767544713548, 8.421708833430289e-06, 0.0005390242304228682],  
+           [-0.002129741717060465, 5.768591604858056e-06, 0.0008015060078180616],
+           [-0.0012393656339950824, -0.0005777446083855136, 0.0003963515298830287],
+           [-0.0034140914383112395, 4.72171180761456e-06, -0.0014081496925145518],
+           [0.00495454364763536, -0.0003543685211005712, 0.0009189046925379401]]
+
+magmoms_x = []
+magmoms_y = []
+magmoms_z = []
+
+for x in np.arange(len(magmoms)):
+    magmoms_x.append(magmoms[x][0])
+    magmoms_y.append(magmoms[x][1])
+    magmoms_z.append(magmoms[x][2])
+
+magmoms_x = np.array(magmoms_x)
+magmoms_y = np.array(magmoms_y)
+magmoms_z = np.array(magmoms_z)
+Ez = np.array(Ez)
+
+np.savetxt('Ez.npy', Ez)
+np.savetxt('magmoms_x.npy', magmoms_x)
+np.savetxt('magmoms_y.npy', magmoms_y)
+np.savetxt('magmoms_z.npy', magmoms_z)

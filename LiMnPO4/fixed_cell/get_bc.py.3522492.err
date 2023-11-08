@@ -1,0 +1,268 @@
+[g018.nifl.fysik.dtu.dk:32468] mca_base_component_repository_open: unable to open mca_oob_ud: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/niflheim/madkru/venv_folder/bin/gpaw", line 6, in <module>
+    from pkg_resources import load_entry_point
+ModuleNotFoundError: No module named 'pkg_resources'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[24577,1],13]
+  Exit code:    1
+--------------------------------------------------------------------------

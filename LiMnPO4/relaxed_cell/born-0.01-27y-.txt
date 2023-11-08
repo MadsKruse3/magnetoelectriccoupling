@@ -1,0 +1,480 @@
+
+  ___ ___ ___ _ _ _  
+ |   |   |_  | | | | 
+ | | | | | . | | | | 
+ |__ |  _|___|_____|  21.1.1b1
+ |___|_|             
+
+User:   madkru@g043.nifl.fysik.dtu.dk
+Date:   Mon Mar 29 22:52:31 2021
+Arch:   x86_64
+Pid:    9629
+Python: 3.8.6
+gpaw:   /home/niflheim/madkru/venv_madkru/gpaw/gpaw (e6f0d78a31)
+_gpaw:  /home/niflheim/madkru/venv_madkru/gpaw/build/lib.linux-x86_64-sandybridge-3.8/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (e6f0d78a31)
+ase:    /home/niflheim/madkru/venv_madkru/ase/ase (version 3.22.0b1-4d5a73cb29)
+numpy:  /home/modules/software/SciPy-bundle/2020.11-foss-2020b/lib/python3.8/site-packages/numpy (version 1.19.4)
+scipy:  /home/modules/software/SciPy-bundle/2020.11-foss-2020b/lib/python3.8/site-packages/scipy (version 1.5.4)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 64
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+Input parameters:
+  convergence: {bands: occupied,
+                density: 0.0001,
+                eigenstates: 4e-08,
+                energy: 0.0005,
+                forces: 1e-06}
+  kpts: [6 6 4]
+  mode: {ecut: 600.0,
+         gammacentered: False,
+         name: pw}
+  occupations: {fixmagmom: False,
+                name: fermi-dirac,
+                width: 0.001}
+  symmetry: {point_group: False,
+             time_reversal: False}
+
+System changes: positions, numbers, cell, pbc, initial_charges, initial_magmoms 
+
+Initialize ...
+
+O-setup:
+  name: Oxygen
+  id: 9b9d51c344dea68c822856295a461509
+  Z: 8.0
+  valence: 6
+  core: 2
+  charge: 0.0
+  file: /home/modules/software/GPAW-setups/0.9.20000/O.LDA.gz
+  compensation charges: gauss, rc=0.21, lmax=2
+  cutoffs: 1.17(filt), 0.83(core),
+  valence states:
+                energy  radius
+    2s(2.00)   -23.752   0.688
+    2p(4.00)    -9.195   0.598
+    *s           3.459   0.688
+    *p          18.016   0.598
+    *d           0.000   0.619
+
+  Using partial waves for O as LCAO basis
+
+Mn-setup:
+  name: Manganese
+  id: 0d715a8018be061a6e9ea6f2d364ac92
+  Z: 25.0
+  valence: 15
+  core: 10
+  charge: 0.0
+  file: /home/modules/software/GPAW-setups/0.9.20000/Mn.LDA.gz
+  compensation charges: gauss, rc=0.38, lmax=2
+  cutoffs: 2.14(filt), 0.86(core),
+  valence states:
+                energy  radius
+    3s(2.00)   -85.387   1.275
+    4s(2.00)    -5.282   1.275
+    3p(6.00)   -54.493   1.281
+    4p(0.00)    -1.471   1.281
+    3d(5.00)    -7.009   1.138
+    *d          20.203   1.138
+
+  Using partial waves for Mn as LCAO basis
+
+P-setup:
+  name: Phosphorus
+  id: a5561c299094968922a179ab894d2e2d
+  Z: 15.0
+  valence: 5
+  core: 10
+  charge: 0.0
+  file: /home/modules/software/GPAW-setups/0.9.20000/P.LDA.gz
+  compensation charges: gauss, rc=0.30, lmax=2
+  cutoffs: 1.69(filt), 1.81(core),
+  valence states:
+                energy  radius
+    3s(2.00)   -14.015   0.953
+    3p(3.00)    -5.596   0.953
+    *s          13.197   0.953
+    *p          21.615   0.953
+    *d           0.000   0.953
+
+  Using partial waves for P as LCAO basis
+
+Li-setup:
+  name: Lithium
+  id: b73562207f97a71b6967473b66fe8b65
+  Z: 3.0
+  valence: 1
+  core: 2
+  charge: 0.0
+  file: /home/modules/software/GPAW-setups/0.9.20000/Li.LDA.gz
+  compensation charges: gauss, rc=0.33, lmax=2
+  cutoffs: 1.91(filt), 2.55(core),
+  valence states:
+                energy  radius
+    2s(1.00)    -2.874   1.058
+    2p(0.00)    -1.126   1.058
+    *s          24.338   1.058
+
+  Using partial waves for Li as LCAO basis
+
+Reference energy: -196157.275402
+
+Spin-polarized calculation.
+Magnetic moment: 0.000000
+
+Convergence criteria:
+  Maximum total energy change: 0.0005 eV / electron
+  Maximum integral of absolute density change: 0.0001 electrons
+  Maximum integral of absolute eigenstate change: 4e-08 eV^2
+  Maximum change in atomic force: 1e-06 eV / Ang
+  Maximum number of iterations: 333
+
+Symmetries present (total): 1
+
+  ( 1  0  0)
+  ( 0  1  0)
+  ( 0  0  1)
+
+144 k-points: 6 x 6 x 4 Monkhorst-Pack grid
+144 k-points in the irreducible part of the Brillouin zone
+       k-points in crystal coordinates                weights
+   0:    -0.41666667   -0.41666667   -0.37500000          1/144
+   1:    -0.41666667   -0.41666667   -0.12500000          1/144
+   2:    -0.41666667   -0.41666667    0.12500000          1/144
+   3:    -0.41666667   -0.41666667    0.37500000          1/144
+   4:    -0.41666667   -0.25000000   -0.37500000          1/144
+   5:    -0.41666667   -0.25000000   -0.12500000          1/144
+   6:    -0.41666667   -0.25000000    0.12500000          1/144
+   7:    -0.41666667   -0.25000000    0.37500000          1/144
+   8:    -0.41666667   -0.08333333   -0.37500000          1/144
+   9:    -0.41666667   -0.08333333   -0.12500000          1/144
+          ...
+ 143:     0.41666667    0.41666667    0.37500000          1/144
+
+Wave functions: Plane wave expansion
+  Cutoff energy: 600.000 eV
+  Number of coefficients (min, max): 9132, 9161
+  Pulay-stress correction: 0.000000 eV/Ang^3 (de/decut=0.000000)
+  Using FFTW library
+  ScaLapack parameters: grid=1x1, blocksize=None
+  Wavefunction extrapolation:
+    Improved wavefunction reuse through dual PAW basis 
+
+  Fermi-Dirac: width=0.0010 eV
+
+Eigensolver
+   Davidson(niter=2) 
+
+Densities:
+  Coarse grid: 60*35*27 grid
+  Fine grid: 120*70*54 grid
+  Total Charge: 0.000000 
+
+Density mixing:
+  Method: difference
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  Mixing with 5 old densities
+  Damping of long wave oscillations: 50 
+
+Hamiltonian:
+  XC and Coulomb potentials evaluated on a 120*70*54 grid
+  Using the LDA Exchange-Correlation functional
+ 
+
+Memory estimate:
+  Process memory now: 12316.74 MiB
+  Calculator: 322.47 MiB
+    Density: 9.62 MiB
+      Arrays: 3.79 MiB
+      Localized functions: 4.27 MiB
+      Mixer: 1.56 MiB
+    Hamiltonian: 2.94 MiB
+      Arrays: 2.82 MiB
+      XC: 0.00 MiB
+      Poisson: 0.00 MiB
+      vbar: 0.12 MiB
+    Wavefunctions: 309.91 MiB
+      Arrays psit_nG: 281.81 MiB
+      Eigensolver: 18.27 MiB
+      Projections: 2.71 MiB
+      Projectors: 4.40 MiB
+      PW-descriptor: 2.71 MiB
+
+Total number of cores used: 64
+Parallelization over k-points: 16
+Domain decomposition: 2 x 2 x 1
+
+Number of atoms: 28
+Number of atomic orbitals: 148
+Number of bands in calculation: 112
+Number of valence electrons: 180
+Bands to converge: occupied
+
+... initialized
+
+Initializing position-dependent things.
+
+Density initialized from atomic densities
+Creating initial wave functions:
+  112 bands from LCAO basis set
+
+                                           
+                                           
+                                           
+                                           
+                                           
+               O     O  P  O               
+            PO           OMn     O         
+                  O          MO            
+            O        Li O                  
+             Mn  Mn          OP            
+         O       O Li O                    
+         Li     O P         O              
+       Li                                  
+                                           
+                                           
+                                           
+                                           
+
+Positions:
+   0 O     -1.280122   -2.495595   -1.112331    ( 0.0000,  0.0000,  0.0000)
+   1 O     -3.023238    2.918858    1.191723    ( 0.0000,  0.0000,  0.0000)
+   2 O      1.997451    0.467212    1.441442    ( 0.0000,  0.0000,  0.0000)
+   3 O      3.740343   -0.043905   -0.862614    ( 0.0000,  0.0000,  0.0000)
+   4 O      1.997419    2.918835    1.441465    ( 0.0000,  0.0000,  0.0000)
+   5 O      3.740372   -2.495531   -0.862587    ( 0.0000,  0.0000,  0.0000)
+   6 O     -1.280154   -0.043891   -1.112309    ( 0.0000,  0.0000,  0.0000)
+   7 O     -3.023210    0.467136    1.191750    ( 0.0000,  0.0000,  0.0000)
+   8 O     -4.147405   -1.269737   -0.856207    ( 0.0000,  0.0000,  0.0000)
+   9 O     -0.155894    1.692986    1.447725    ( 0.0000,  0.0000,  0.0000)
+  10 O      4.864578    1.693016    1.185324    ( 0.0000,  0.0000,  0.0000)
+  11 O      0.873163   -1.269706   -1.118625    ( 0.0000,  0.0000,  0.0000)
+  12 Mn    -2.437108   -1.269902    0.302197    ( 0.0000,  0.0000,  1.0000)
+  13 Mn    -1.866187    1.693156   -2.001927    ( 0.0000,  0.0000, -1.0000)
+  14 Mn     3.154299    1.693181    0.026917    ( 0.0000,  0.0000, -1.0000)
+  15 Mn     2.583444   -1.269877    2.331074    ( 0.0000,  0.0000,  1.0000)
+  16 P     -0.543052   -1.269720   -1.734187    ( 0.0000,  0.0000,  0.0000)
+  17 P     -3.760282    1.692974    0.569859    ( 0.0000,  0.0000,  0.0000)
+  18 P      1.260300    1.693000    2.063344    ( 0.0000,  0.0000,  0.0000)
+  19 P      4.477470   -1.269695   -0.240696    ( 0.0000,  0.0000,  0.0000)
+  20 O     -0.544413   -1.269738    1.348523    ( 0.0000,  0.0000,  0.0000)
+  21 O     -3.758895    1.692992   -0.955558    ( 0.0000,  0.0000,  0.0000)
+  22 O      1.261690    1.693018   -1.019367    ( 0.0000,  0.0000,  0.0000)
+  23 O      4.476045   -1.269713    1.284716    ( 0.0000,  0.0000,  0.0000)
+  24 Li    -4.662027   -2.751322   -2.139440    ( 0.0000,  0.0000,  0.0000)
+  25 Li     0.358703   -2.751277    0.164614    ( 0.0000,  0.0000,  0.0000)
+  26 Li    -4.662011    0.211617   -2.139439    ( 0.0000,  0.0000,  0.0000)
+  27 Li     0.358720    0.201628    0.164615    ( 0.0000,  0.0000,  0.0000)
+
+Unit cell:
+           periodic     x           y           z      points  spacing
+  1. axis:    yes   10.041096    0.000054   -0.000022    60     0.1674
+  2. axis:    yes    0.000032    5.925857    0.000001    35     0.1693
+  3. axis:    yes   -0.000010    0.000001    4.608134    27     0.1707
+
+  Lengths:  10.041096   5.925857   4.608134
+  Angles:   89.999974  90.000250  89.999381
+
+Effective grid spacing dv^(1/3) = 0.1691
+
+                     log10-error:           total        iterations:
+           time      wfs    density  force  energy       poisson  magmom
+iter:   1  22:54:15                       -233.730267             +0.0000
+iter:   2  22:54:35  -0.47  -0.95         -231.550003             -0.0053
+iter:   3  22:54:55  -0.60  -1.00         -220.821216             -0.0055
+iter:   4  22:55:15  -1.21  -1.31         -221.323862             -0.4206
+iter:   5  22:55:35  -2.15  -1.38         -222.513865             -0.2412
+iter:   6  22:55:55  -2.30  -1.38         -223.801927             -0.0536
+iter:   7  22:56:15  -2.16  -1.53         -224.284240             +0.3045
+iter:   8  22:56:35  -2.52  -1.68         -225.701753             +1.0728
+iter:   9  22:56:55  -2.57  -1.92         -226.369475             +0.2296
+iter:  10  22:57:15  -2.17  -2.04         -226.294962             -0.0187
+iter:  11  22:57:35  -2.83  -2.21         -226.294373             +0.0126
+iter:  12  22:57:54  -2.14  -2.25         -226.371693             +0.0147
+iter:  13  22:58:14  -3.11  -2.60         -226.225821             +0.0039
+iter:  14  22:58:34  -2.88  -2.74         -226.194957             -0.0011
+iter:  15  22:58:54  -3.55  -2.94         -226.179309             -0.0000
+iter:  16  22:59:14  -4.20  -3.18         -226.176641             -0.0002
+iter:  17  22:59:34  -4.61  -3.23         -226.176040             -0.0001
+iter:  18  22:59:54  -4.50  -3.34         -226.175595             -0.0000
+iter:  19  23:00:14  -5.18  -3.36         -226.175542             -0.0000
+iter:  20  23:00:34  -4.27  -3.42         -226.176663             -0.0000
+iter:  21  23:00:54  -4.49  -3.42         -226.175542             -0.0000
+iter:  22  23:01:14  -5.89  -3.60         -226.175492             -0.0000
+iter:  23  23:01:34  -5.06  -3.65         -226.175350             +0.0000
+iter:  24  23:01:54  -5.89  -3.74         -226.175281             -0.0000
+iter:  25  23:02:14  -5.92  -3.80         -226.175312             -0.0000
+iter:  26  23:02:34  -5.54  -3.83         -226.175260             -0.0000
+iter:  27  23:02:54  -6.35  -4.03         -226.175253             -0.0000
+iter:  28  23:03:14  -7.09  -4.15         -226.175253             -0.0000
+iter:  29  23:03:34  -5.85  -4.21         -226.175233             +0.0000
+iter:  30  23:03:54  -6.43  -4.34         -226.175226             -0.0000
+iter:  31  23:04:14  -7.28  -4.47         -226.175219             -0.0000
+iter:  32  23:04:39  -7.40  -4.55         -226.175217             -0.0000
+iter:  33  23:04:59  -7.21  -4.67         -226.175221             -0.0000
+iter:  34  23:05:24  -8.08  -4.81    -2.54-226.175219             -0.0000
+iter:  35  23:05:43  -7.31  -4.94         -226.175216             -0.0000
+iter:  36  23:06:08  -8.18  -5.16    -2.68-226.175216             -0.0000
+iter:  37  23:06:33  -8.72  -5.19    -3.01-226.175216             -0.0000
+iter:  38  23:06:58  -8.01  -5.23    -3.02-226.175216             -0.0000
+iter:  39  23:07:23  -8.26  -5.32    -3.04-226.175216             -0.0000
+iter:  40  23:07:48  -9.38  -5.54    -3.69-226.175216             -0.0000
+iter:  41  23:08:13  -8.65  -5.59    -3.22-226.175215             -0.0000
+iter:  42  23:08:38  -9.43  -5.88    -3.56-226.175215             -0.0000
+iter:  43  23:09:03 -10.14  -6.06    -4.17-226.175215             -0.0000
+iter:  44  23:09:28 -10.22  -6.21    -3.97-226.175215             -0.0000
+iter:  45  23:09:53 -10.72  -6.35    -4.25-226.175215             -0.0000
+iter:  46  23:10:18 -11.20  -6.45    -4.71-226.175215             -0.0000
+iter:  47  23:10:43 -10.77  -6.50    -4.23-226.175215             -0.0000
+iter:  48  23:11:08 -11.59  -6.61    -4.68-226.175215             -0.0000
+iter:  49  23:11:33 -10.92  -6.68    -4.24-226.175215             -0.0000
+iter:  50  23:11:58 -11.76  -6.93    -4.76-226.175215             -0.0000
+iter:  51  23:12:22 -12.24  -7.16    -5.19-226.175215             -0.0000
+iter:  52  23:12:47 -12.39  -7.21    -5.12-226.175215             -0.0000
+iter:  53  23:13:12 -12.44  -7.40    -5.17-226.175215             -0.0000
+iter:  54  23:13:37 -13.62  -7.55    -5.84-226.175215             -0.0000
+iter:  55  23:14:02 -12.85  -7.60    -5.26-226.175215             -0.0000
+iter:  56  23:14:27 -13.02  -7.82    -5.39-226.175215             -0.0000
+iter:  57  23:14:52 -14.19  -8.17    -6.27-226.175215             -0.0000
+
+Converged after 57 iterations.
+
+Dipole moment: (18.326852, -2.256072, -4.524372) |e|*Ang
+
+Total magnetic moment: (0.000000, 0.000000, -0.000000)
+Local magnetic moments:
+   0 O  ( 0.000000,  0.000000, -0.001776)
+   1 O  ( 0.000000,  0.000000,  0.001826)
+   2 O  ( 0.000000,  0.000000,  0.001872)
+   3 O  ( 0.000000,  0.000000, -0.001789)
+   4 O  ( 0.000000,  0.000000,  0.001837)
+   5 O  ( 0.000000,  0.000000, -0.001786)
+   6 O  ( 0.000000,  0.000000, -0.001752)
+   7 O  ( 0.000000,  0.000000,  0.001834)
+   8 O  ( 0.000000,  0.000000,  0.031121)
+   9 O  ( 0.000000,  0.000000, -0.031158)
+  10 O  ( 0.000000,  0.000000, -0.031073)
+  11 O  ( 0.000000,  0.000000,  0.031034)
+  12 Mn ( 0.000000,  0.000000,  4.395744)
+  13 Mn ( 0.000000,  0.000000, -4.395858)
+  14 Mn ( 0.000000,  0.000000, -4.395757)
+  15 Mn ( 0.000000,  0.000000,  4.395676)
+  16 P  ( 0.000000,  0.000000,  0.000864)
+  17 P  ( 0.000000,  0.000000, -0.000869)
+  18 P  ( 0.000000,  0.000000, -0.000872)
+  19 P  ( 0.000000,  0.000000,  0.000866)
+  20 O  ( 0.000000,  0.000000,  0.028394)
+  21 O  ( 0.000000,  0.000000, -0.028403)
+  22 O  ( 0.000000,  0.000000, -0.028444)
+  23 O  ( 0.000000,  0.000000,  0.028432)
+  24 Li ( 0.000000,  0.000000, -0.000000)
+  25 Li ( 0.000000,  0.000000, -0.000002)
+  26 Li ( 0.000000,  0.000000,  0.000000)
+  27 Li ( 0.000000,  0.000000,  0.000013)
+
+Energy contributions relative to reference atoms: (reference = -196157.275402)
+
+Kinetic:       +277.625228
+Potential:     -240.967455
+External:        +0.000000
+XC:            -264.721430
+Entropy (-ST):   -0.000000
+Local:           +1.888442
+--------------------------
+Free energy:   -226.175215
+Extrapolated:  -226.175215
+
+Spin contamination: 9.455313 electrons
+Showing only first 2 kpts
+                      Up                     Down
+ Kpt  Band  Eigenvalues  Occupancy  Eigenvalues  Occupancy
+  0    88      6.52909    1.00000      6.53187    1.00000
+  0    89      6.56253    1.00000      6.56568    1.00000
+  0    90      8.42819    0.00000      8.42527    0.00000
+  0    91      8.44966    0.00000      8.44708    0.00000
+
+  1    88      6.56747    1.00000      6.57038    1.00000
+  1    89      6.59443    1.00000      6.59768    1.00000
+  1    90      8.38448    0.00000      8.38166    0.00000
+  1    91      8.40654    0.00000      8.40395    0.00000
+
+
+Fermi level: 7.58703
+
+Gap: 1.697 eV
+Transition (v -> c):
+  (s=1, k=69, n=89, [-0.08, 0.42, -0.12]) -> (s=1, k=82, n=90, [0.08, -0.08, 0.12])
+Writing to born-0.01-27y-.gpw (mode='all')
+
+Timing:                              incl.     excl.
+-----------------------------------------------------------
+Hamiltonian:                         0.251     0.002   0.0% |
+ Atomic:                             0.070     0.070   0.0% |
+  XC Correction:                     0.000     0.000   0.0% |
+ Calculate atomic Hamiltonians:      0.086     0.086   0.0% |
+ Communicate:                        0.000     0.000   0.0% |
+ Initialize Hamiltonian:             0.000     0.000   0.0% |
+ Poisson:                            0.001     0.001   0.0% |
+ XC 3D grid:                         0.091     0.091   0.0% |
+LCAO initialization:                78.816     0.675   0.0% |
+ LCAO eigensolver:                  21.639     0.003   0.0% |
+  Calculate projections:             0.030     0.030   0.0% |
+  DenseAtomicCorrection:             0.043     0.043   0.0% |
+  Distribute overlap matrix:         0.034     0.034   0.0% |
+  Orbital Layouts:                   0.278     0.278   0.0% |
+  Potential matrix:                 21.162    21.162   0.6% |
+  Sum over cells:                    0.088     0.088   0.0% |
+ LCAO to grid:                      55.148    55.148   1.6% ||
+ Set positions (LCAO WFS):           1.355     0.194   0.0% |
+  Basic WFS set positions:           0.001     0.001   0.0% |
+  Basis functions set positions:     0.000     0.000   0.0% |
+  P tci:                             0.534     0.534   0.0% |
+  ST tci:                            0.398     0.398   0.0% |
+  mktci:                             0.226     0.226   0.0% |
+PWDescriptor:                        0.025     0.025   0.0% |
+SCF-cycle:                        1261.104     5.564   0.2% |
+ Davidson:                        1075.337   333.938   9.8% |---|
+  Apply H:                          76.524    74.359   2.2% ||
+   HMM T:                            2.164     2.164   0.1% |
+  Subspace diag:                   156.146     0.162   0.0% |
+   calc_h_matrix:                  101.491    26.143   0.8% |
+    Apply H:                        75.349    73.306   2.2% ||
+     HMM T:                          2.043     2.043   0.1% |
+   diagonalize:                      5.870     5.870   0.2% |
+   rotate_psi:                      48.623    48.623   1.4% ||
+  calc. matrices:                  323.544   173.756   5.1% |-|
+   Apply H:                        149.787   145.750   4.3% |-|
+    HMM T:                           4.037     4.037   0.1% |
+  diagonalize:                      88.240    88.240   2.6% ||
+  rotate_psi:                       96.946    96.946   2.9% ||
+ Density:                           44.617     0.001   0.0% |
+  Atomic density matrices:           0.751     0.751   0.0% |
+  Mix:                               7.316     7.316   0.2% |
+  Multipole moments:                 0.020     0.020   0.0% |
+  Pseudo density:                   36.528    36.526   1.1% |
+   Symmetrize density:               0.002     0.002   0.0% |
+ Forces:                           120.110   120.110   3.5% ||
+ Hamiltonian:                       13.383     0.116   0.0% |
+  Atomic:                            3.145     3.144   0.1% |
+   XC Correction:                    0.000     0.000   0.0% |
+  Calculate atomic Hamiltonians:     4.833     4.833   0.1% |
+  Communicate:                       0.052     0.052   0.0% |
+  Poisson:                           0.047     0.047   0.0% |
+  XC 3D grid:                        5.190     5.190   0.2% |
+ Orthonormalize:                     2.094     0.003   0.0% |
+  calc_s_matrix:                     0.246     0.246   0.0% |
+  inverse-cholesky:                  0.040     0.040   0.0% |
+  projections:                       1.360     1.360   0.0% |
+  rotate_psi_s:                      0.445     0.445   0.0% |
+Set symmetry:                        0.000     0.000   0.0% |
+Other:                            2052.138  2052.138  60.5% |-----------------------|
+-----------------------------------------------------------
+Total:                                      3392.333 100.0%
+
+Memory usage: 12.07 GiB
+Date: Mon Mar 29 23:49:03 2021

@@ -1,0 +1,761 @@
+rank=02 L00: Traceback (most recent call last):
+rank=02 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=02 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=02 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=02 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=02 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=02 L06:     f(args)
+rank=02 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=02 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=02 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=02 L10:     return _run_module_code(code, init_globals, run_name,
+rank=02 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=02 L12:     _run_code(code, mod_globals, init_globals,
+rank=02 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=02 L14:     exec(code, run_globals)
+rank=02 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=02 L16:     with open('born-0.01.json') as fd:
+rank=02 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 2): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=27 L00: Traceback (most recent call last):
+rank=27 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=27 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=27 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=27 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=27 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=27 L06:     f(args)
+rank=27 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=27 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=27 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=27 L10:     return _run_module_code(code, init_globals, run_name,
+rank=27 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=27 L12:     _run_code(code, mod_globals, init_globals,
+rank=27 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=27 L14:     exec(code, run_globals)
+rank=27 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=27 L16:     with open('born-0.01.json') as fd:
+rank=27 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 27): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=03 L00: Traceback (most recent call last):
+rank=03 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=03 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=03 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=03 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=03 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=03 L06:     f(args)
+rank=03 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=03 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=03 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=03 L10:     return _run_module_code(code, init_globals, run_name,
+rank=03 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=03 L12:     _run_code(code, mod_globals, init_globals,
+rank=03 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=03 L14:     exec(code, run_globals)
+rank=03 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=03 L16:     with open('born-0.01.json') as fd:
+rank=03 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 3): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=26 L00: Traceback (most recent call last):
+rank=26 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=26 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=26 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=26 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=26 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=26 L06:     f(args)
+rank=26 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=26 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=26 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=26 L10:     return _run_module_code(code, init_globals, run_name,
+rank=26 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=26 L12:     _run_code(code, mod_globals, init_globals,
+rank=26 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=26 L14:     exec(code, run_globals)
+rank=26 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=26 L16:     with open('born-0.01.json') as fd:
+rank=26 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 26): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=05 L00: Traceback (most recent call last):
+rank=05 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=05 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=05 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=05 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=05 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=05 L06:     f(args)
+rank=05 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=05 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=05 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=05 L10:     return _run_module_code(code, init_globals, run_name,
+rank=05 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=05 L12:     _run_code(code, mod_globals, init_globals,
+rank=05 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=05 L14:     exec(code, run_globals)
+rank=05 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=05 L16:     with open('born-0.01.json') as fd:
+rank=05 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 5): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=28 L00: Traceback (most recent call last):
+rank=28 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=28 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=28 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=28 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=28 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=28 L06:     f(args)
+rank=28 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=28 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=28 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=28 L10:     return _run_module_code(code, init_globals, run_name,
+rank=28 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=28 L12:     _run_code(code, mod_globals, init_globals,
+rank=28 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=28 L14:     exec(code, run_globals)
+rank=28 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=28 L16:     with open('born-0.01.json') as fd:
+rank=28 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 28): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=00 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=00 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=00 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=00 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=00 L06:     f(args)
+rank=00 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=00 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=00 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=00 L10:     return _run_module_code(code, init_globals, run_name,
+rank=00 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=00 L12:     _run_code(code, mod_globals, init_globals,
+rank=00 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=00 L14:     exec(code, run_globals)
+rank=00 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=00 L16:     with open('born-0.01.json') as fd:
+rank=00 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 0): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=13 L00: Traceback (most recent call last):
+rank=13 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=13 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=13 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=13 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=13 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=13 L06:     f(args)
+rank=13 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=13 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=13 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=13 L10:     return _run_module_code(code, init_globals, run_name,
+rank=13 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=13 L12:     _run_code(code, mod_globals, init_globals,
+rank=13 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=13 L14:     exec(code, run_globals)
+rank=13 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=13 L16:     with open('born-0.01.json') as fd:
+rank=13 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 13): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=07 L00: Traceback (most recent call last):
+rank=07 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=07 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=07 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=07 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=07 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=07 L06:     f(args)
+rank=07 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=07 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=07 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=07 L10:     return _run_module_code(code, init_globals, run_name,
+rank=07 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=07 L12:     _run_code(code, mod_globals, init_globals,
+rank=07 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=07 L14:     exec(code, run_globals)
+rank=07 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=07 L16:     with open('born-0.01.json') as fd:
+rank=07 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+rank=09 L00: Traceback (most recent call last):
+rank=09 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=09 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=09 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=09 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=09 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=09 L06:     f(args)
+rank=09 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=09 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=09 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=09 L10:     return _run_module_code(code, init_globals, run_name,
+rank=09 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=09 L12:     _run_code(code, mod_globals, init_globals,
+rank=09 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=09 L14:     exec(code, run_globals)
+rank=09 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=09 L16:     with open('born-0.01.json') as fd:
+rank=09 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 9): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=21 L00: Traceback (most recent call last):
+rank=21 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=21 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=21 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=21 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=21 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=21 L06:     f(args)
+rank=21 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=21 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=21 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=21 L10:     return _run_module_code(code, init_globals, run_name,
+rank=21 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=21 L12:     _run_code(code, mod_globals, init_globals,
+rank=21 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=21 L14:     exec(code, run_globals)
+rank=21 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=21 L16:     with open('born-0.01.json') as fd:
+rank=21 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 21): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 7): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=08 L00: Traceback (most recent call last):
+rank=08 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=08 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=08 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=08 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=08 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=08 L06:     f(args)
+rank=08 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=08 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=08 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=08 L10:     return _run_module_code(code, init_globals, run_name,
+rank=08 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=08 L12:     _run_code(code, mod_globals, init_globals,
+rank=08 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=08 L14:     exec(code, run_globals)
+rank=08 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=08 L16:     with open('born-0.01.json') as fd:
+rank=08 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 8): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=24 L00: Traceback (most recent call last):
+rank=24 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=24 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=24 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=24 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=24 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=24 L06:     f(args)
+rank=24 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=24 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=24 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=24 L10:     return _run_module_code(code, init_globals, run_name,
+rank=24 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=24 L12:     _run_code(code, mod_globals, init_globals,
+rank=24 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=24 L14:     exec(code, run_globals)
+rank=24 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=24 L16:     with open('born-0.01.json') as fd:
+rank=24 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 24): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=20 L00: Traceback (most recent call last):
+rank=20 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=20 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=20 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=20 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=20 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=20 L06:     f(args)
+rank=20 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=20 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=20 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=20 L10:     return _run_module_code(code, init_globals, run_name,
+rank=20 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=20 L12:     _run_code(code, mod_globals, init_globals,
+rank=20 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=20 L14:     exec(code, run_globals)
+rank=20 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=20 L16:     with open('born-0.01.json') as fd:
+rank=20 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 20): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=25 L00: Traceback (most recent call last):
+rank=25 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=25 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=25 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=25 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=25 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=25 L06:     f(args)
+rank=25 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=25 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=25 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=25 L10:     return _run_module_code(code, init_globals, run_name,
+rank=25 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=25 L12:     _run_code(code, mod_globals, init_globals,
+rank=25 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=25 L14:     exec(code, run_globals)
+rank=25 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=25 L16:     with open('born-0.01.json') as fd:
+rank=25 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 25): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=14 L00: Traceback (most recent call last):
+rank=14 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=14 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=14 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=14 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=14 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=14 L06:     f(args)
+rank=14 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=14 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=14 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=14 L10:     return _run_module_code(code, init_globals, run_name,
+rank=14 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=14 L12:     _run_code(code, mod_globals, init_globals,
+rank=14 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=14 L14:     exec(code, run_globals)
+rank=14 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=14 L16:     with open('born-0.01.json') as fd:
+rank=14 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 14): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=16 L00: Traceback (most recent call last):
+rank=16 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=16 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=16 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=16 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=16 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=16 L06:     f(args)
+rank=16 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=16 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=16 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=16 L10:     return _run_module_code(code, init_globals, run_name,
+rank=16 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=16 L12:     _run_code(code, mod_globals, init_globals,
+rank=16 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=16 L14:     exec(code, run_globals)
+rank=16 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=16 L16:     with open('born-0.01.json') as fd:
+rank=16 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 16): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=37 L00: Traceback (most recent call last):
+rank=37 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=37 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=37 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=37 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=37 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=37 L06:     f(args)
+rank=37 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=37 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=37 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=37 L10:     return _run_module_code(code, init_globals, run_name,
+rank=37 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=37 L12:     _run_code(code, mod_globals, init_globals,
+rank=37 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=37 L14:     exec(code, run_globals)
+rank=37 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=37 L16:     with open('born-0.01.json') as fd:
+rank=37 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 37): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=23 L00: Traceback (most recent call last):
+rank=23 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=23 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=23 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=23 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=23 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=23 L06:     f(args)
+rank=23 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=23 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=23 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=23 L10:     return _run_module_code(code, init_globals, run_name,
+rank=23 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=23 L12:     _run_code(code, mod_globals, init_globals,
+rank=23 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=23 L14:     exec(code, run_globals)
+rank=23 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=23 L16:     with open('born-0.01.json') as fd:
+rank=23 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 23): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=31 L00: Traceback (most recent call last):
+rank=31 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=31 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=31 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=31 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=31 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=31 L06:     f(args)
+rank=31 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=31 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=31 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=31 L10:     return _run_module_code(code, init_globals, run_name,
+rank=31 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=31 L12:     _run_code(code, mod_globals, init_globals,
+rank=31 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=31 L14:     exec(code, run_globals)
+rank=31 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=31 L16:     with open('born-0.01.json') as fd:
+rank=31 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 31): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=01 L00: Traceback (most recent call last):
+rank=01 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=01 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=01 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=01 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=01 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=01 L06:     f(args)
+rank=01 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=01 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=01 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=01 L10:     return _run_module_code(code, init_globals, run_name,
+rank=01 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=01 L12:     _run_code(code, mod_globals, init_globals,
+rank=01 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=01 L14:     exec(code, run_globals)
+rank=01 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=01 L16:     with open('born-0.01.json') as fd:
+rank=01 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+rank=12 L00: Traceback (most recent call last):
+rank=12 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=12 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=12 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=12 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=12 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=12 L06:     f(args)
+rank=12 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=12 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=12 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=12 L10:     return _run_module_code(code, init_globals, run_name,
+rank=12 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=12 L12:     _run_code(code, mod_globals, init_globals,
+rank=12 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=12 L14:     exec(code, run_globals)
+rank=12 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=12 L16:     with open('born-0.01.json') as fd:
+rank=12 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 12): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 1): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=06 L00: Traceback (most recent call last):
+rank=06 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=06 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=06 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=06 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=06 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=06 L06:     f(args)
+rank=06 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=06 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=06 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=06 L10:     return _run_module_code(code, init_globals, run_name,
+rank=06 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=06 L12:     _run_code(code, mod_globals, init_globals,
+rank=06 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=06 L14:     exec(code, run_globals)
+rank=06 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=06 L16:     with open('born-0.01.json') as fd:
+rank=06 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 6): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=11 L00: Traceback (most recent call last):
+rank=11 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=11 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=11 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=11 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=11 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=11 L06:     f(args)
+rank=11 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=11 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=11 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=11 L10:     return _run_module_code(code, init_globals, run_name,
+rank=11 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=11 L12:     _run_code(code, mod_globals, init_globals,
+rank=11 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=11 L14:     exec(code, run_globals)
+rank=11 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=11 L16:     with open('born-0.01.json') as fd:
+rank=11 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 11): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=35 L00: Traceback (most recent call last):
+rank=35 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=35 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=35 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=35 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=35 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=35 L06:     f(args)
+rank=35 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=35 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=35 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=35 L10:     return _run_module_code(code, init_globals, run_name,
+rank=35 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=35 L12:     _run_code(code, mod_globals, init_globals,
+rank=35 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=35 L14:     exec(code, run_globals)
+rank=35 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=35 L16:     with open('born-0.01.json') as fd:
+rank=35 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 35): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=33 L00: Traceback (most recent call last):
+rank=33 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=33 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=33 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=33 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=33 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=33 L06:     f(args)
+rank=33 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=33 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=33 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=33 L10:     return _run_module_code(code, init_globals, run_name,
+rank=33 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=33 L12:     _run_code(code, mod_globals, init_globals,
+rank=33 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=33 L14:     exec(code, run_globals)
+rank=33 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=33 L16:     with open('born-0.01.json') as fd:
+rank=33 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 33): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=19 L00: Traceback (most recent call last):
+rank=19 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=19 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=19 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=19 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=19 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=19 L06:     f(args)
+rank=19 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=19 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=19 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=19 L10:     return _run_module_code(code, init_globals, run_name,
+rank=19 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=19 L12:     _run_code(code, mod_globals, init_globals,
+rank=19 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=19 L14:     exec(code, run_globals)
+rank=19 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=19 L16:     with open('born-0.01.json') as fd:
+rank=19 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 19): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=17 L00: Traceback (most recent call last):
+rank=17 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=17 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=17 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=17 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=17 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=17 L06:     f(args)
+rank=17 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=17 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=17 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=17 L10:     return _run_module_code(code, init_globals, run_name,
+rank=17 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=17 L12:     _run_code(code, mod_globals, init_globals,
+rank=17 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=17 L14:     exec(code, run_globals)
+rank=17 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=17 L16:     with open('born-0.01.json') as fd:
+rank=17 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 17): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=36 L00: Traceback (most recent call last):
+rank=36 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=36 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=36 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=36 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=36 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=36 L06:     f(args)
+rank=36 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=36 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=36 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=36 L10:     return _run_module_code(code, init_globals, run_name,
+rank=36 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=36 L12:     _run_code(code, mod_globals, init_globals,
+rank=36 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=36 L14:     exec(code, run_globals)
+rank=36 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=36 L16:     with open('born-0.01.json') as fd:
+rank=36 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 36): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=15 L00: Traceback (most recent call last):
+rank=15 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=15 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=15 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=15 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=15 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=15 L06:     f(args)
+rank=15 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=15 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=15 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=15 L10:     return _run_module_code(code, init_globals, run_name,
+rank=15 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=15 L12:     _run_code(code, mod_globals, init_globals,
+rank=15 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=15 L14:     exec(code, run_globals)
+rank=15 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=15 L16:     with open('born-0.01.json') as fd:
+rank=15 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 15): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=39 L00: Traceback (most recent call last):
+rank=39 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=39 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=39 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=39 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=39 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=39 L06:     f(args)
+rank=39 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=39 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=39 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=39 L10:     return _run_module_code(code, init_globals, run_name,
+rank=39 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=39 L12:     _run_code(code, mod_globals, init_globals,
+rank=39 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=39 L14:     exec(code, run_globals)
+rank=39 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=39 L16:     with open('born-0.01.json') as fd:
+rank=39 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 39): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=22 L00: Traceback (most recent call last):
+rank=22 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=22 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=22 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=22 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=22 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=22 L06:     f(args)
+rank=22 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=22 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=22 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=22 L10:     return _run_module_code(code, init_globals, run_name,
+rank=22 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=22 L12:     _run_code(code, mod_globals, init_globals,
+rank=22 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=22 L14:     exec(code, run_globals)
+rank=22 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=22 L16:     with open('born-0.01.json') as fd:
+rank=22 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 22): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=29 L00: Traceback (most recent call last):
+rank=29 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=29 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=29 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=29 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=29 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=29 L06:     f(args)
+rank=29 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=29 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=29 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=29 L10:     return _run_module_code(code, init_globals, run_name,
+rank=29 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=29 L12:     _run_code(code, mod_globals, init_globals,
+rank=29 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=29 L14:     exec(code, run_globals)
+rank=29 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=29 L16:     with open('born-0.01.json') as fd:
+rank=29 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 29): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=04 L00: Traceback (most recent call last):
+rank=04 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=04 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=04 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=04 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=04 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=04 L06:     f(args)
+rank=04 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=04 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=04 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=04 L10:     return _run_module_code(code, init_globals, run_name,
+rank=04 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=04 L12:     _run_code(code, mod_globals, init_globals,
+rank=04 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=04 L14:     exec(code, run_globals)
+rank=04 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=04 L16:     with open('born-0.01.json') as fd:
+rank=04 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 4): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=18 L00: Traceback (most recent call last):
+rank=18 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=18 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=18 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=18 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=18 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=18 L06:     f(args)
+rank=18 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=18 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=18 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=18 L10:     return _run_module_code(code, init_globals, run_name,
+rank=18 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=18 L12:     _run_code(code, mod_globals, init_globals,
+rank=18 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=18 L14:     exec(code, run_globals)
+rank=18 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=18 L16:     with open('born-0.01.json') as fd:
+rank=18 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 18): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=32 L00: Traceback (most recent call last):
+rank=32 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=32 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=32 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=32 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=32 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=32 L06:     f(args)
+rank=32 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=32 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=32 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=32 L10:     return _run_module_code(code, init_globals, run_name,
+rank=32 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=32 L12:     _run_code(code, mod_globals, init_globals,
+rank=32 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=32 L14:     exec(code, run_globals)
+rank=32 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=32 L16:     with open('born-0.01.json') as fd:
+rank=32 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+rank=34 L00: Traceback (most recent call last):
+rank=34 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=34 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=34 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=34 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=34 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=34 L06:     f(args)
+rank=34 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=34 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=34 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=34 L10:     return _run_module_code(code, init_globals, run_name,
+rank=34 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=34 L12:     _run_code(code, mod_globals, init_globals,
+rank=34 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=34 L14:     exec(code, run_globals)
+rank=34 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=34 L16:     with open('born-0.01.json') as fd:
+rank=34 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 34): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 32): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=38 L00: Traceback (most recent call last):
+rank=38 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=38 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=38 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=38 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=38 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=38 L06:     f(args)
+rank=38 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=38 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=38 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=38 L10:     return _run_module_code(code, init_globals, run_name,
+rank=38 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=38 L12:     _run_code(code, mod_globals, init_globals,
+rank=38 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=38 L14:     exec(code, run_globals)
+rank=38 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=38 L16:     with open('born-0.01.json') as fd:
+rank=38 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 38): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=10 L00: Traceback (most recent call last):
+rank=10 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=10 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=10 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=10 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=10 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=10 L06:     f(args)
+rank=10 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=10 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=10 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=10 L10:     return _run_module_code(code, init_globals, run_name,
+rank=10 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=10 L12:     _run_code(code, mod_globals, init_globals,
+rank=10 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=10 L14:     exec(code, run_globals)
+rank=10 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=10 L16:     with open('born-0.01.json') as fd:
+rank=10 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 10): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+rank=30 L00: Traceback (most recent call last):
+rank=30 L01:   File "/home/niflheim2/cmr/WIP/stacking/venv/bin/gpaw", line 33, in <module>
+rank=30 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=30 L03:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=30 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=30 L05:   File "/home/niflheim2/cmr/WIP/stacking/venv/ase/ase/cli/main.py", line 103, in main
+rank=30 L06:     f(args)
+rank=30 L07:   File "/home/niflheim2/cmr/WIP/stacking/venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=30 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=30 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=30 L10:     return _run_module_code(code, init_globals, run_name,
+rank=30 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=30 L12:     _run_code(code, mod_globals, init_globals,
+rank=30 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=30 L14:     exec(code, run_globals)
+rank=30 L15:   File "get_me_coupling_tols.py", line 25, in <module>
+rank=30 L16:     with open('born-0.01.json') as fd:
+rank=30 L17: FileNotFoundError: [Errno 2] No such file or directory: 'born-0.01.json'
+GPAW CLEANUP (node 30): <class 'FileNotFoundError'> occurred.  Calling MPI_Abort!
+Abort(42) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 42) - process 0

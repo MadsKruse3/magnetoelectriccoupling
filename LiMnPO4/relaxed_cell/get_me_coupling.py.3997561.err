@@ -1,0 +1,49 @@
+rank=83 L00: Traceback (most recent call last):
+rank=83 L01:   File "/home/niflheim/madkru/new_venv/bin/gpaw", line 33, in <module>
+rank=83 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=83 L03:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=83 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=83 L05:   File "/home/niflheim/madkru/new_venv/ase/ase/cli/main.py", line 103, in main
+rank=83 L06:     f(args)
+rank=83 L07:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=83 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=83 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=83 L10:     return _run_module_code(code, init_globals, run_name,
+rank=83 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=83 L12:     _run_code(code, mod_globals, init_globals,
+rank=83 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=83 L14:     exec(code, run_globals)
+rank=83 L15:   File "get_me_coupling.py", line 89, in <module>
+rank=83 L16:     structure.get_potential_energy()
+rank=83 L17:   File "/home/niflheim/madkru/new_venv/ase/ase/atoms.py", line 731, in get_potential_energy
+rank=83 L18:     energy = self._calc.get_potential_energy(self)
+rank=83 L19:   File "/home/niflheim/madkru/new_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=83 L20:     return self.get_property(name, atoms)
+rank=83 L21:   File "/home/niflheim/madkru/new_venv/ase/ase/calculators/calculator.py", line 499, in get_property
+rank=83 L22:     self.calculate(atoms, [name], system_changes)
+rank=83 L23:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/calculator.py", line 331, in calculate
+rank=83 L24:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=83 L25:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/calculator.py", line 369, in icalculate
+rank=83 L26:     yield from self.scf.irun(
+rank=83 L27:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/scf.py", line 63, in irun
+rank=83 L28:     wfs.eigensolver.iterate(ham, wfs)
+rank=83 L29:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/eigensolvers/eigensolver.py", line 136, in iterate
+rank=83 L30:     e = self.iterate_one_k_point(ham, wfs, kpt, weights)
+rank=83 L31:   File "/home/niflheim/madkru/new_venv/ase/ase/utils/timing.py", line 186, in new_method
+rank=83 L32:     x = method(slf, *args, **kwargs)
+rank=83 L33:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/eigensolvers/davidson.py", line 190, in iterate_one_k_point
+rank=83 L34:     self.diagonalizer_backend.diagonalize(
+rank=83 L35:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/eigensolvers/diagonalizerbackend.py", line 40, in diagonalize
+rank=83 L36:     eps[:], A[:] = eigh(
+rank=83 L37:   File "/home/modules/software/SciPy-bundle/2020.11-foss-2020b/lib/python3.8/site-packages/scipy/linalg/decomp.py", line 578, in eigh
+rank=83 L38:     raise LinAlgError('The leading minor of order {} of B is not '
+rank=83 L39: numpy.linalg.LinAlgError: The leading minor of order 340 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+GPAW CLEANUP (node 83): <class 'numpy.linalg.LinAlgError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 83 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

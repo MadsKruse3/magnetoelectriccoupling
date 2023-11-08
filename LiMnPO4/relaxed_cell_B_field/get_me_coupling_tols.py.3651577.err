@@ -1,0 +1,2 @@
+mpiexec: Error: unknown option "--env"
+Type 'mpiexec --help' for usage.

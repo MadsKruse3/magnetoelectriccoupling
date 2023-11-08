@@ -1,0 +1,19 @@
+import numpy as np
+import json
+from ase.io import read
+from ase.phonons import Phonons
+from ase.parallel import paropen
+from gpaw import GPAW, PW, FermiDirac, MixerDif
+from gpaw.occupations import FermiDirac
+from gpaw.borncharges import borncharges 
+
+structure = read('LiMnPO4.gpw')
+
+calc = GPAW('LiMnPO4.gpw')
+
+ph = Phonons(structure, calc, supercell=(1,1,1), delta=0.01)
+#ph = Phonons(structure, calc, supercell=(1,1,1), delta=0.01, born=True)
+ph.run()
+ph.read(symmetrize=10, acoustic=True, born=True)
+
+

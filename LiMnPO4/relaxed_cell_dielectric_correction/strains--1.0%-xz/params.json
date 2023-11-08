@@ -1,0 +1,44 @@
+{
+ "asr.relax": {
+  "calculator": {
+   "kpts": {
+    "size": {
+     "__ndarray__": [
+      [
+       3
+      ],
+      "int64",
+      [
+       4,
+       7,
+       9
+      ]
+     ]
+    },
+    "gamma": true
+   },
+   "name": "gpaw",
+   "mode": {
+    "name": "pw",
+    "ecut": 800
+   },
+   "xc": "PBE",
+   "basis": "dzp",
+   "symmetry": {
+    "symmorphic": false
+   },
+   "convergence": {
+    "forces": 0.0001
+   },
+   "txt": "relax.txt",
+   "occupations": {
+    "name": "fermi-dirac",
+    "width": 0.05
+   },
+   "charge": 0
+  },
+  "fixcell": true,
+  "allow_symmetry_breaking": true,
+  "fmax": 0.008
+ }
+}

@@ -1,0 +1,43 @@
+import numpy as np
+import json
+from ase.io import read
+from ase.phonons import Phonons
+from ase.parallel import paropen
+from gpaw import GPAW, PW, FermiDirac, MixerDif
+from gpaw.occupations import FermiDirac
+from gpaw.borncharges import borncharges
+from ase.optimize import BFGS 
+from ase.constraints import UnitCellFilter
+
+structure = read('LiMnPO4_springermat.cif')
+
+magmoms = [0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0,
+           1.0, -1.0, -1.0, 1.0,
+           0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0,
+           0.0, 0.0, 0.0, 0.0]
+
+structure.set_initial_magnetic_moments(magmoms)
+
+U = 3.0
+
+calc = GPAW(mode=PW(600),
+            xc='LDA',
+            symmetry={'point_group': False},
+            convergence={'forces': 1.0e-4},
+            occupations=FermiDirac(0.001),
+            setups={'Mn': f':d,{U}'},
+            parallel={'domain': 1, 'band': 1},
+            kpts=(4,4,6),
+            txt='relax.txt')
+
+structure.set_calculator(calc)
+
+uf = UnitCellFilter(structure, mask=[1, 1, 1, 1, 1, 1])
+opt = BFGS(uf)
+opt.run(fmax=0.001)
+
+structure.get_potential_energy()
+calc.write('LiMnPO4_relaxed.gpw')

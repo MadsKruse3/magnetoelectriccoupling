@@ -1,0 +1,8 @@
+from ase.io import write
+from gpaw import GPAW
+
+calc = GPAW('LiMnPO4_relaxed.gpw')
+
+atom = calc.atom
+
+atom.write('structure.json')

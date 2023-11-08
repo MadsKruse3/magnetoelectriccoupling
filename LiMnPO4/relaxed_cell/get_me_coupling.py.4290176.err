@@ -1,0 +1,36 @@
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "/home/niflheim/madkru/new_venv/bin/gpaw", line 33, in <module>
+rank=00 L02:     sys.exit(load_entry_point('gpaw', 'console_scripts', 'gpaw')())
+rank=00 L03:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/cli/main.py", line 80, in main
+rank=00 L04:     ase_main('gpaw', 'GPAW command-line tool', __version__,
+rank=00 L05:   File "/home/niflheim/madkru/new_venv/ase/ase/cli/main.py", line 103, in main
+rank=00 L06:     f(args)
+rank=00 L07:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/cli/python.py", line 34, in run
+rank=00 L08:     runpy.run_path(args.arguments[0], run_name='__main__')
+rank=00 L09:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 265, in run_path
+rank=00 L10:     return _run_module_code(code, init_globals, run_name,
+rank=00 L11:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 97, in _run_module_code
+rank=00 L12:     _run_code(code, mod_globals, init_globals,
+rank=00 L13:   File "/home/modules/software/Python/3.8.6-GCCcore-10.2.0/lib/python3.8/runpy.py", line 87, in _run_code
+rank=00 L14:     exec(code, run_globals)
+rank=00 L15:   File "get_me_coupling.py", line 88, in <module>
+rank=00 L16:     structure.get_potential_energy()
+rank=00 L17:   File "/home/niflheim/madkru/new_venv/ase/ase/atoms.py", line 731, in get_potential_energy
+rank=00 L18:     energy = self._calc.get_potential_energy(self)
+rank=00 L19:   File "/home/niflheim/madkru/new_venv/ase/ase/calculators/abc.py", line 24, in get_potential_energy
+rank=00 L20:     return self.get_property(name, atoms)
+rank=00 L21:   File "/home/niflheim/madkru/new_venv/ase/ase/calculators/calculator.py", line 499, in get_property
+rank=00 L22:     self.calculate(atoms, [name], system_changes)
+rank=00 L23:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/calculator.py", line 331, in calculate
+rank=00 L24:     for _ in self.icalculate(atoms, properties, system_changes):
+rank=00 L25:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/calculator.py", line 369, in icalculate
+rank=00 L26:     yield from self.scf.irun(
+rank=00 L27:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/scf.py", line 78, in irun
+rank=00 L28:     self.log(log, self.niter, wfs, ham, dens, errors)
+rank=00 L29:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/scf.py", line 208, in log
+rank=00 L30:     log(flush=True)
+rank=00 L31:   File "/home/niflheim/madkru/new_venv/gpaw/gpaw/io/logger.py", line 49, in __call__
+rank=00 L32:     self._fd.flush()
+rank=00 L33: OSError: [Errno 116] Stale file handle
+GPAW CLEANUP (node 0): <class 'OSError'> occurred.  Calling MPI_Abort!
+slurmstepd: error: *** JOB 4290176 ON x007 CANCELLED AT 2021-12-07T11:02:55 ***

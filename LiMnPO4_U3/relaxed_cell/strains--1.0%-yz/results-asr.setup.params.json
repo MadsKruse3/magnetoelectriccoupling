@@ -1,0 +1,95 @@
+{
+ "object_id": "asr.core.results::ASRResult",
+ "constructor": "asr.core.results::ASRResult",
+ "args": [],
+ "kwargs": {
+  "data": {
+   "asr.relax": {
+    "calculator": {
+     "kpts": {
+      "size": {
+       "__ndarray__": [
+        [
+         3
+        ],
+        "int64",
+        [
+         4,
+         7,
+         9
+        ]
+       ]
+      },
+      "gamma": true
+     },
+     "name": "gpaw",
+     "mode": {
+      "name": "pw",
+      "ecut": 800
+     },
+     "xc": "PBE",
+     "basis": "dzp",
+     "symmetry": {
+      "symmorphic": false
+     },
+     "convergence": {
+      "forces": 0.0001
+     },
+     "txt": "relax.txt",
+     "occupations": {
+      "name": "fermi-dirac",
+      "width": 0.05
+     },
+     "charge": 0
+    },
+    "fixcell": true,
+    "allow_symmetry_breaking": true,
+    "fmax": 0.008
+   }
+  },
+  "metadata": {
+   "asr_name": "asr.setup.params",
+   "resources": {
+    "time": 0.010469436645507812,
+    "ncores": 1,
+    "tstart": 1616487366.56812,
+    "tend": 1616487366.5785894
+   },
+   "params": {
+    "params": {
+     "asr.relax": {
+      "calculator": {
+       "kpts": {
+        "size": {
+         "__ndarray__": [
+          [
+           3
+          ],
+          "int64",
+          [
+           4,
+           7,
+           9
+          ]
+         ]
+        },
+        "gamma": true
+       },
+       "null": null
+      },
+      "fixcell": true,
+      "allow_symmetry_breaking": true,
+      "fmax": 0.008
+     }
+    }
+   },
+   "code_versions": {
+    "asr": "0.4.1-9fdd5bbb4419114fce61d947c8cf9ddef7211d01",
+    "ase": "3.21.0b1-7e6c206a91ad0b4a82073e1ddca10a28c1f32933",
+    "gpaw": "20.10.1b1-d0d1ca1c71266f46d25747260051d1f0b5eb1fd5"
+   },
+   "creates": {}
+  },
+  "strict": null
+ }
+}

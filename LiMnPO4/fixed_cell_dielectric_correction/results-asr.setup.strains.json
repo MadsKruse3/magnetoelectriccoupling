@@ -1,0 +1,29 @@
+{
+ "object_id": "asr.core.results::ASRResult",
+ "constructor": "asr.core.results::ASRResult",
+ "args": [],
+ "kwargs": {
+  "data": {},
+  "metadata": {
+   "asr_name": "asr.setup.strains",
+   "resources": {
+    "time": 9.244083404541016,
+    "ncores": 1,
+    "tstart": 1616094992.0145562,
+    "tend": 1616095001.2586396
+   },
+   "params": {
+    "strain_percent": 1.0,
+    "kptdensity": 6.0,
+    "copyparams": true
+   },
+   "code_versions": {
+    "asr": "0.4.1-9fdd5bbb4419114fce61d947c8cf9ddef7211d01",
+    "ase": "3.21.0b1-7e6c206a91ad0b4a82073e1ddca10a28c1f32933",
+    "gpaw": "20.10.1b1-d0d1ca1c71266f46d25747260051d1f0b5eb1fd5"
+   },
+   "creates": {}
+  },
+  "strict": null
+ }
+}
